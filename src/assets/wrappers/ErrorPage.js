@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 const Wrapper = styled.main`
   text-align: center;
+  
   img {
     max-width: 600px;
     display: block;
@@ -23,6 +24,10 @@ const Wrapper = styled.main`
     text-decoration: underline;
     text-transform: capitalize;
   }
+  div{
+    margin-top: 10%;
+  }
+
 `
 
 export default Wrapper

@@ -2,6 +2,7 @@ import React from 'react'
 import { Logo } from '../Components'
 import main from '../assets/images/main.svg'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 const Landing = () => {
   return (
    <Wrapper>
@@ -18,7 +19,8 @@ const Landing = () => {
           kickstarter viral taxidermy bushwick tbh. Hashtag put a bird on it scenester pug banh mi 
           pinterest.
           </p>
-          <button className='btn btn-hero'>Login/Register </button>
+         
+          <Link to='/register' className='btn btn-hero'>Login/Register </Link>
        </div>
        <img src={main} alt="job hunt" className="img main-img"/>
      </div>
